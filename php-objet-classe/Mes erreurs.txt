@@ -1,0 +1,11 @@
+Mes erreurs — Exercice POO PHP
+1. Oubli du point-virgule ;.
+2. Oubli du signe =.
+3. Utilisation d'arguments dans new Mage() sans constructeur.
+4. Mauvaise utilisation de $this dans la classe.
+5. Confusion entre $this et les variables des objets.
+6. Affectations successives écrasant les valeurs.
+7. Oubli du point . de concaténation.
+8. Oubli des espaces dans l'affichage.
+9. Oubli du saut de ligne HTML <br>.
+Notions à revoir : propriétés, méthodes, public, private, $this et constructeur

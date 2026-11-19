@@ -1,0 +1,9 @@
+Créer ta première classe Mage
+
+Dans un fichier mage.php :
+1. Déclare une classe appelée Mage.
+2. Ajoute une propriété publique nom.
+3. Ajoute une propriété publique niveau.
+Pas encore de constructeur, de méthode ni d'objet créé avec new.
+
+C'est à toi d'écrire le code, puis de me montrer ta tentative. 💪

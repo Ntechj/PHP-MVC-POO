@@ -1,0 +1,27 @@
+
+<?php
+
+class film {
+
+    public $titre;
+    public $annee;
+    public $genre;
+
+}
+
+$matrix = new film();
+
+   $matrix -> titre = "Matrix";
+   $matrix -> annee = 1999;
+   $matrix -> genre = "Action - Science-Fiction";
+
+$gladiator = new film();
+
+    $gladiator -> titre = "Gladiator";
+    $gladiator -> annee = 2000;
+    $gladiator -> genre = "Péplum - Action - Aventure - Drame";
+
+   echo $matrix -> titre . " - " . $matrix -> annee . " - " . $matrix -> genre;
+   echo "<br>";
+   echo $gladiator -> titre . " - " . $gladiator -> annee; . " - " .$gladiator -> genre;
+  

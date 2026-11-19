@@ -1,0 +1,45 @@
+Voici ton cahier des charges :
+
+modele.php : crée un tableau PHP contenant Sangoku, Vegeta et Piccolo. Chaque personnage doit avoir un nom, une race et une puissance.
+
+controleur.php : récupère le modèle et appelle la vue grâce à require.
+
+vue.php : contient le HTML et utilise une seule boucle foreach pour afficher les trois combattants.
+
+index.php : sert de point d'entrée et appelle ton contrôleur.
+
+3. Les règles de l'exercice
+Tu dois respecter quatre contraintes :
+
+Ne pas écrire trois fois le HTML des personnages.
+
+Utiliser un tableau contenant les trois personnages.
+
+Afficher leurs informations grâce à foreach.
+
+Utiliser tes accolades { } plutôt que la syntaxe avec :.
+
+Tu peux également utiliser htmlspecialchars(), comme nous l'avions étudié.
+
+Pas de connexion, pas de CSS, pas de JavaScript et pas de programmation orientée objet. On teste uniquement les connaissances que tu as déjà étudiées.
+
+4. Un petit indice pour démarrer
+Souviens-toi de DjikoStream.
+
+Quand tu avais plusieurs films, tu avais compris que tu pouvais mettre plusieurs tableaux dans un grand tableau, plutôt que de créer une variable différente pour chaque film.
+
+C'est exactement la même logique ici.
+
+Et rappelle-toi ce schéma :
+
+index.php
+Point d'entrée
+
+controleur.php
+Fait le lien
+
+modele.php
+Les données
+
+vue.php
+L'affichage HTML

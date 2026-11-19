@@ -1,0 +1,3 @@
+<?php
+require __DIR__ . '/models.php' ;
+require __DIR__ . '/vue.php' ;
